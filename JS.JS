@@ -7,7 +7,7 @@ const main =async ()=>{
     class:Number
    })
    const model = mongoose.model('datasse',schema);
-   const data = new model({name:"rohit",village:4984,class:12});
+   const data = new model({name:"rohit",class:12});
    const result =await data.save();
    console.log(result)
 }
